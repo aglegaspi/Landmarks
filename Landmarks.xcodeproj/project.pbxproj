@@ -74,15 +74,22 @@
 			isa = PBXGroup;
 			children = (
 				ECDA4DFD274704E4006A30FD /* MapView.swift */,
+				ECDA4DFB274703BB006A30FD /* CircleImage.swift */,
+				ECAD8DA9274820DE008DBD18 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		ECC98D4C2748708F00288076 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
 				ECC98D4627486B0900288076 /* BadgeSymbol.swift */,
 				ECC98D4827486E4300288076 /* RotatedBadgeSymbol.swift */,
 				ECC98D4A27486ECD00288076 /* Badge.swift */,
-				ECDA4DFB274703BB006A30FD /* CircleImage.swift */,
-				ECAD8DA9274820DE008DBD18 /* FavoriteButton.swift */,
 				ECAD8DAD27482D1A008DBD18 /* HexagonParameters.swift */,
 				ECAD8DAF27482E9E008DBD18 /* BadgeBackground.swift */,
 			);
-			path = Helpers;
+			path = Badges;
 			sourceTree = "<group>";
 		};
 		ECDA4DE12746FDBD006A30FD = {
@@ -126,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				ECDA4DEF2746FDBD006A30FD /* ContentView.swift */,
+				ECC98D4C2748708F00288076 /* Badges */,
 				ECAD8DAC27482262008DBD18 /* Helpers */,
 				ECAD8DAB2748224B008DBD18 /* Landmarks */,
 			);
