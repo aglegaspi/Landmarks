@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ECAD8DAA274820DF008DBD18 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD8DA9274820DE008DBD18 /* FavoriteButton.swift */; };
+		ECAD8DAE27482D1A008DBD18 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD8DAD27482D1A008DBD18 /* HexagonParameters.swift */; };
 		ECDA4DEE2746FDBD006A30FD /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA4DED2746FDBD006A30FD /* LandmarksApp.swift */; };
 		ECDA4DF02746FDBD006A30FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA4DEF2746FDBD006A30FD /* ContentView.swift */; };
 		ECDA4DF22746FDC4006A30FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDA4DF12746FDC4006A30FD /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		ECAD8DA9274820DE008DBD18 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		ECAD8DAD27482D1A008DBD18 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		ECDA4DEA2746FDBD006A30FD /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDA4DED2746FDBD006A30FD /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		ECDA4DEF2746FDBD006A30FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				ECDA4DFD274704E4006A30FD /* MapView.swift */,
 				ECDA4DFB274703BB006A30FD /* CircleImage.swift */,
 				ECAD8DA9274820DE008DBD18 /* FavoriteButton.swift */,
+				ECAD8DAD27482D1A008DBD18 /* HexagonParameters.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				ECDA4DFE274704E4006A30FD /* MapView.swift in Sources */,
 				ECDA4DEE2746FDBD006A30FD /* LandmarksApp.swift in Sources */,
 				ECAD8DAA274820DF008DBD18 /* FavoriteButton.swift in Sources */,
+				ECAD8DAE27482D1A008DBD18 /* HexagonParameters.swift in Sources */,
 				ECDA4E0B274744DA006A30FD /* LandmarkList.swift in Sources */,
 				ECDA4E0D27476757006A30FD /* LandmarkDetail.swift in Sources */,
 				ECDA4DFC274703BB006A30FD /* CircleImage.swift in Sources */,
