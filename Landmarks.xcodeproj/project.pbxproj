@@ -16,6 +16,7 @@
 		ECDA4E0027470B18006A30FD /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = ECDA4DFF27470B18006A30FD /* landmarkData.json */; };
 		ECDA4E0227470B3F006A30FD /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA4E0127470B3F006A30FD /* Landmark.swift */; };
 		ECDA4E0427471330006A30FD /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA4E0327471330006A30FD /* ModelData.swift */; };
+		ECDA4E0927473F5F006A30FD /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA4E0827473F5F006A30FD /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		ECDA4DFF27470B18006A30FD /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		ECDA4E0127470B3F006A30FD /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		ECDA4E0327471330006A30FD /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		ECDA4E0827473F5F006A30FD /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				ECDA4DEF2746FDBD006A30FD /* ContentView.swift */,
 				ECDA4DFD274704E4006A30FD /* MapView.swift */,
 				ECDA4DFB274703BB006A30FD /* CircleImage.swift */,
+				ECDA4E0827473F5F006A30FD /* LandmarkRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				ECDA4DEE2746FDBD006A30FD /* LandmarksApp.swift in Sources */,
 				ECDA4DFC274703BB006A30FD /* CircleImage.swift in Sources */,
 				ECDA4E0227470B3F006A30FD /* Landmark.swift in Sources */,
+				ECDA4E0927473F5F006A30FD /* LandmarkRow.swift in Sources */,
 				ECDA4E0427471330006A30FD /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
