@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EC9622C1274AEDCE000D8AFF /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9622C0274AEDCE000D8AFF /* CategoryHome.swift */; };
 		EC9622C3274AF36A000D8AFF /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9622C2274AF36A000D8AFF /* CategoryRow.swift */; };
+		EC9622C5274AF74B000D8AFF /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9622C4274AF74B000D8AFF /* CategoryItem.swift */; };
 		ECAD8DAA274820DF008DBD18 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD8DA9274820DE008DBD18 /* FavoriteButton.swift */; };
 		ECAD8DAE27482D1A008DBD18 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD8DAD27482D1A008DBD18 /* HexagonParameters.swift */; };
 		ECAD8DB027482E9E008DBD18 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD8DAF27482E9E008DBD18 /* BadgeBackground.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		EC9622C0274AEDCE000D8AFF /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		EC9622C2274AF36A000D8AFF /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		EC9622C4274AF74B000D8AFF /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		ECAD8DA9274820DE008DBD18 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		ECAD8DAD27482D1A008DBD18 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		ECAD8DAF27482E9E008DBD18 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				EC9622C0274AEDCE000D8AFF /* CategoryHome.swift */,
 				EC9622C2274AF36A000D8AFF /* CategoryRow.swift */,
+				EC9622C4274AF74B000D8AFF /* CategoryItem.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				ECC98D56274882EB00288076 /* GraphCapsule.swift in Sources */,
 				ECDA4DEE2746FDBD006A30FD /* LandmarksApp.swift in Sources */,
 				ECAD8DAA274820DF008DBD18 /* FavoriteButton.swift in Sources */,
+				EC9622C5274AF74B000D8AFF /* CategoryItem.swift in Sources */,
 				ECC98D58274882EB00288076 /* HikeDetail.swift in Sources */,
 				ECAD8DAE27482D1A008DBD18 /* HexagonParameters.swift in Sources */,
 				ECC98D502748813800288076 /* Hike.swift in Sources */,
