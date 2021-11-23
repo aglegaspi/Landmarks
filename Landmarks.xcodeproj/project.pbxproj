@@ -78,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC6098E6274D650A0022386E /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
 		EC9622BF274AEDB2000D8AFF /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +178,7 @@
 		ECDA4E0527473ECC006A30FD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EC6098E6274D650A0022386E /* Profiles */,
 				EC9622BF274AEDB2000D8AFF /* Category */,
 				ECDA4DEF2746FDBD006A30FD /* ContentView.swift */,
 				ECC98D51274882EA00288076 /* Hikes */,
