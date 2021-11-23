@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EC6098E8274D65470022386E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6098E7274D65470022386E /* Profile.swift */; };
+		EC6098EC274D66AD0022386E /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6098EB274D66AD0022386E /* ProfileHost.swift */; };
+		EC6098EE274D6B110022386E /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6098ED274D6B110022386E /* ProfileSummary.swift */; };
 		EC9622C1274AEDCE000D8AFF /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9622C0274AEDCE000D8AFF /* CategoryHome.swift */; };
 		EC9622C3274AF36A000D8AFF /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9622C2274AF36A000D8AFF /* CategoryRow.swift */; };
 		EC9622C5274AF74B000D8AFF /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9622C4274AF74B000D8AFF /* CategoryItem.swift */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		EC6098E7274D65470022386E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		EC6098EB274D66AD0022386E /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		EC6098ED274D6B110022386E /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		EC9622C0274AEDCE000D8AFF /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		EC9622C2274AF36A000D8AFF /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		EC9622C4274AF74B000D8AFF /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				EC6098E7274D65470022386E /* Profile.swift */,
+				EC6098EB274D66AD0022386E /* ProfileHost.swift */,
+				EC6098ED274D6B110022386E /* ProfileSummary.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -295,7 +301,9 @@
 				ECAD8DAA274820DF008DBD18 /* FavoriteButton.swift in Sources */,
 				EC9622C5274AF74B000D8AFF /* CategoryItem.swift in Sources */,
 				ECC98D58274882EB00288076 /* HikeDetail.swift in Sources */,
+				EC6098EE274D6B110022386E /* ProfileSummary.swift in Sources */,
 				ECAD8DAE27482D1A008DBD18 /* HexagonParameters.swift in Sources */,
+				EC6098EC274D66AD0022386E /* ProfileHost.swift in Sources */,
 				ECC98D502748813800288076 /* Hike.swift in Sources */,
 				ECC98D4927486E4300288076 /* RotatedBadgeSymbol.swift in Sources */,
 				ECC98D4727486B0900288076 /* BadgeSymbol.swift in Sources */,
