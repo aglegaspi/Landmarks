@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC6098E8274D65470022386E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6098E7274D65470022386E /* Profile.swift */; };
 		EC9622C1274AEDCE000D8AFF /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9622C0274AEDCE000D8AFF /* CategoryHome.swift */; };
 		EC9622C3274AF36A000D8AFF /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9622C2274AF36A000D8AFF /* CategoryRow.swift */; };
 		EC9622C5274AF74B000D8AFF /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9622C4274AF74B000D8AFF /* CategoryItem.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC6098E7274D65470022386E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		EC9622C0274AEDCE000D8AFF /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		EC9622C2274AF36A000D8AFF /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		EC9622C4274AF74B000D8AFF /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		EC6098E6274D650A0022386E /* Profiles */ = {
 			isa = PBXGroup;
 			children = (
+				EC6098E7274D65470022386E /* Profile.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC9622C3274AF36A000D8AFF /* CategoryRow.swift in Sources */,
+				EC6098E8274D65470022386E /* Profile.swift in Sources */,
 				ECDA4DF02746FDBD006A30FD /* ContentView.swift in Sources */,
 				EC9622C1274AEDCE000D8AFF /* CategoryHome.swift in Sources */,
 				ECC98D57274882EB00288076 /* HikeGraph.swift in Sources */,
