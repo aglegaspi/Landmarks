@@ -8,7 +8,7 @@
 import SwiftUI
 import UIKit
 
-struct PageViewController<Page: View> UIViewControllerRepresentable {
+struct PageViewController<Page: View>: UIViewControllerRepresentable {
     var pages: [Page]
     
     func makeUIViewController(context: Context) -> UIPageViewController {
