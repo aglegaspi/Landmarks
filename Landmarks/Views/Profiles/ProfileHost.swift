@@ -20,6 +20,7 @@ struct ProfileHost: View {
                         draftProfile = modelData.profile
                         editMode?.animation().wrappedValue = .inactive
                     }
+                    
                 }
                 
                 Spacer()
