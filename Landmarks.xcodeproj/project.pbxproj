@@ -14,6 +14,7 @@
 		EC6098F2274D8F110022386E /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6098F1274D8F110022386E /* ProfileEditor.swift */; };
 		EC88F2B8274DA4C3005D027B /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC88F2B7274DA4C3005D027B /* PageViewController.swift */; };
 		EC88F2BA274DA809005D027B /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC88F2B9274DA809005D027B /* FeatureCard.swift */; };
+		EC88F2BC274DAA7A005D027B /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC88F2BB274DAA7A005D027B /* PageView.swift */; };
 		EC9622C1274AEDCE000D8AFF /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9622C0274AEDCE000D8AFF /* CategoryHome.swift */; };
 		EC9622C3274AF36A000D8AFF /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9622C2274AF36A000D8AFF /* CategoryRow.swift */; };
 		EC9622C5274AF74B000D8AFF /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9622C4274AF74B000D8AFF /* CategoryItem.swift */; };
@@ -51,6 +52,7 @@
 		EC6098F1274D8F110022386E /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		EC88F2B7274DA4C3005D027B /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		EC88F2B9274DA809005D027B /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		EC88F2BB274DAA7A005D027B /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		EC9622C0274AEDCE000D8AFF /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		EC9622C2274AF36A000D8AFF /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		EC9622C4274AF74B000D8AFF /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				EC88F2B7274DA4C3005D027B /* PageViewController.swift */,
 				EC88F2B9274DA809005D027B /* FeatureCard.swift */,
+				EC88F2BB274DAA7A005D027B /* PageView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				EC6098EC274D66AD0022386E /* ProfileHost.swift in Sources */,
 				ECC98D502748813800288076 /* Hike.swift in Sources */,
 				ECC98D4927486E4300288076 /* RotatedBadgeSymbol.swift in Sources */,
+				EC88F2BC274DAA7A005D027B /* PageView.swift in Sources */,
 				ECC98D4727486B0900288076 /* BadgeSymbol.swift in Sources */,
 				EC6098F2274D8F110022386E /* ProfileEditor.swift in Sources */,
 				ECDA4E0B274744DA006A30FD /* LandmarkList.swift in Sources */,
