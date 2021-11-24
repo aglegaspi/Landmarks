@@ -9,11 +9,10 @@ import SwiftUI
 import UIKit
 
 struct PageViewController<Page: View>: UIViewControllerRepresentable {
-    func makeCoordinator() -> Coordinator {
-        Coordinator(self)
-    }
-    
     var pages: [Page]
+    @Binding var currentPage: Int
+    
+    func makeCoordinator() -> Coordinator { Coordinator(self) }
     
     func makeUIViewController(context: Context) -> UIPageViewController {
         let pageViewController = UIPageViewController(
@@ -26,7 +25,7 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
     
     func updateUIViewController(_ pageViewController: UIPageViewController, context: Context) {
         pageViewController.setViewControllers(
-            [context.coordinator.controllers[0]], direction: .forward, animated: true)
+            [context.coordinator.controllers[currentPage]], direction: .forward, animated: true)
     }
     
     class Coordinator: NSObject, UIPageViewControllerDataSource {
