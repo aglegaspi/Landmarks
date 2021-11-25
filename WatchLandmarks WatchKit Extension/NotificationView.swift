@@ -26,8 +26,9 @@ struct NotificationView: View {
             
             Text(message ?? "You are within 5 miles of one of your favorite landmarks.")
                 .font(.caption)
+                //.lineLimit(0)
         }
-        .lineLimit(0)
+        
     }
 }
 
