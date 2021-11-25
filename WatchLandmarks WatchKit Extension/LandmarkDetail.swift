@@ -16,7 +16,8 @@ struct LandmarkDetail: View {
     }
     
     var body: some View {
-        Text("Hello, we are at \(landmark.name)")
+        CircleImage(image: landmark.image.resizable())
+                        .scaledToFill()
     }
 }
 
@@ -24,7 +25,15 @@ struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
         let modelData = ModelData()
         
+        return Group {
         LandmarkDetail(landmark: modelData.landmarks[0])
             .environmentObject(modelData)
+            .previewDevice("Apple Watch Series 5 - 44mm")
+        
+        LandmarkDetail(landmark: modelData.landmarks[0])
+            .environmentObject(modelData)
+            .previewDevice("Apple Watch Series 5 - 40mm")
+        }
+        
     }
 }
