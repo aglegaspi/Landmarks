@@ -64,6 +64,7 @@
 		ECE184802750061D0047A60B /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC98D4F2748813800288076 /* Hike.swift */; };
 		ECE184812750061D0047A60B /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = ECDA4DFF27470B18006A30FD /* landmarkData.json */; };
 		ECE184822750061D0047A60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDA4DF12746FDC4006A30FD /* Assets.xcassets */; };
+		ECE184842750081D0047A60B /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE184832750081D0047A60B /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +158,7 @@
 		ECE184682750036C0047A60B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ECE1846A2750036C0047A60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE1846B2750036C0047A60B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		ECE184832750081D0047A60B /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -340,6 +342,7 @@
 			isa = PBXGroup;
 			children = (
 				ECE1845D275003690047A60B /* ContentView.swift */,
+				ECE184832750081D0047A60B /* LandmarkDetail.swift */,
 				ECE1845F275003690047A60B /* NotificationController.swift */,
 				ECE18461275003690047A60B /* NotificationView.swift */,
 				ECE18463275003690047A60B /* ComplicationController.swift */,
@@ -540,6 +543,7 @@
 				ECE18460275003690047A60B /* NotificationController.swift in Sources */,
 				ECE184802750061D0047A60B /* Hike.swift in Sources */,
 				ECE184782750061D0047A60B /* MapView.swift in Sources */,
+				ECE184842750081D0047A60B /* LandmarkDetail.swift in Sources */,
 				ECE1847E2750061D0047A60B /* LandmarksApp.swift in Sources */,
 				ECE1845E275003690047A60B /* ContentView.swift in Sources */,
 				ECE1847B2750061D0047A60B /* CircleImage.swift in Sources */,
