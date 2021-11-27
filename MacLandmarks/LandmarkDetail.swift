@@ -23,7 +23,8 @@ struct LandmarkDetail: View {
             
             VStack(alignment: .leading, spacing: 20) {
                 HStack(spacing: 24) {
-                    CircleImage(image: landmark.image)
+                    CircleImage(image: landmark.image.resizable())
+                        .frame(width: 160, height: 160)
                                     
                     VStack(alignment: .leading) {
                         HStack {
