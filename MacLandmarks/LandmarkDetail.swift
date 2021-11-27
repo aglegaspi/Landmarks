@@ -21,24 +21,25 @@ struct LandmarkDetail: View {
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             
-            CircleImage(image: landmark.image)
-                .offset(x: 0, y: -130)
-                .padding(.bottom, -130)
-            
-            VStack(alignment: .leading) {
-                HStack {
-                    Text(landmark.name)
-                        .font(.title)
-                        .fontWeight(.bold)
-                    FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
-                }
-                
-                HStack {
-                    Text(landmark.park)
+            VStack(alignment: .leading, spacing: 20) {
+                HStack(spacing: 24) {
+                    CircleImage(image: landmark.image)
+                                    
+                    VStack(alignment: .leading) {
+                        HStack {
+                            Text(landmark.name)
+                                .font(.title)
+                                .fontWeight(.bold)
+                            FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                        }
+                        
+                        VStack(alignment: .leading) {
+                            Text(landmark.park)
+                            Text(landmark.state)
+                        }
                         .font(.subheadline)
-                    Spacer()
-                    Text(landmark.state)
-                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                    }
                 }
                 
                 Divider()
@@ -48,7 +49,7 @@ struct LandmarkDetail: View {
                 Text(landmark.description)
             }
             .padding()
-            
+            .offset(x: 0, y: -50)
         }
         .navigationTitle(landmark.name)
     }
