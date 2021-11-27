@@ -22,6 +22,19 @@
 		EC974F5027529992006EE638 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC974F4F27529992006EE638 /* ContentView.swift */; };
 		EC974F5227529995006EE638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC974F5127529995006EE638 /* Assets.xcassets */; };
 		EC974F5527529995006EE638 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC974F5427529995006EE638 /* Preview Assets.xcassets */; };
+		EC974F5A27529BAA006EE638 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA4DFB274703BB006A30FD /* CircleImage.swift */; };
+		EC974F5B27529BAA006EE638 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA4E0827473F5F006A30FD /* LandmarkRow.swift */; };
+		EC974F5C27529BAA006EE638 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD8DA9274820DE008DBD18 /* FavoriteButton.swift */; };
+		EC974F5D27529BAA006EE638 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA4E0127470B3F006A30FD /* Landmark.swift */; };
+		EC974F5E27529BAA006EE638 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA4DED2746FDBD006A30FD /* LandmarksApp.swift */; };
+		EC974F5F27529BAA006EE638 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA4DFD274704E4006A30FD /* MapView.swift */; };
+		EC974F6027529BAA006EE638 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC98D4F2748813800288076 /* Hike.swift */; };
+		EC974F6127529BAA006EE638 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = ECDA4DFF27470B18006A30FD /* landmarkData.json */; };
+		EC974F6227529BAA006EE638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDA4DF12746FDC4006A30FD /* Assets.xcassets */; };
+		EC974F6327529BAA006EE638 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = ECC98D4D274880DA00288076 /* hikeData.json */; };
+		EC974F6427529BAA006EE638 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA4E0327471330006A30FD /* ModelData.swift */; };
+		EC974F6527529BAA006EE638 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6098E7274D65470022386E /* Profile.swift */; };
+		EC974F6627529BAA006EE638 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDA4E0A274744DA006A30FD /* LandmarkList.swift */; };
 		ECAD8DAA274820DF008DBD18 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD8DA9274820DE008DBD18 /* FavoriteButton.swift */; };
 		ECAD8DAE27482D1A008DBD18 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD8DAD27482D1A008DBD18 /* HexagonParameters.swift */; };
 		ECAD8DB027482E9E008DBD18 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD8DAF27482E9E008DBD18 /* BadgeBackground.swift */; };
@@ -523,6 +536,9 @@
 			files = (
 				EC974F5527529995006EE638 /* Preview Assets.xcassets in Resources */,
 				EC974F5227529995006EE638 /* Assets.xcassets in Resources */,
+				EC974F6227529BAA006EE638 /* Assets.xcassets in Resources */,
+				EC974F6127529BAA006EE638 /* landmarkData.json in Resources */,
+				EC974F6327529BAA006EE638 /* hikeData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,7 +580,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC974F5F27529BAA006EE638 /* MapView.swift in Sources */,
+				EC974F6627529BAA006EE638 /* LandmarkList.swift in Sources */,
+				EC974F6527529BAA006EE638 /* Profile.swift in Sources */,
 				EC974F5027529992006EE638 /* ContentView.swift in Sources */,
+				EC974F6427529BAA006EE638 /* ModelData.swift in Sources */,
+				EC974F5E27529BAA006EE638 /* LandmarksApp.swift in Sources */,
+				EC974F5A27529BAA006EE638 /* CircleImage.swift in Sources */,
+				EC974F5B27529BAA006EE638 /* LandmarkRow.swift in Sources */,
+				EC974F5C27529BAA006EE638 /* FavoriteButton.swift in Sources */,
+				EC974F6027529BAA006EE638 /* Hike.swift in Sources */,
+				EC974F5D27529BAA006EE638 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
