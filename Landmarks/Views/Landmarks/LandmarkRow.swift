@@ -17,7 +17,13 @@ struct LandmarkRow: View {
                 .frame(width: 50, height: 50)
                 .cornerRadius(10.00)
             
-            Text(landmark.name)
+            VStack(alignment: .leading) {
+                Text(landmark.name)
+                    .bold()
+                Text(landmark.park)
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+            }
             
             Spacer()
             
