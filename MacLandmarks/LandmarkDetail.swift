@@ -32,6 +32,7 @@ struct LandmarkDetail: View {
                                 .font(.title)
                                 .fontWeight(.bold)
                             FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                                .buttonStyle(PlainButtonStyle())
                         }
                         
                         VStack(alignment: .leading) {
