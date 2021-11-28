@@ -24,7 +24,8 @@ struct LandmarkList: View {
     
     var filteredLandmarks: [Landmark] {
         modelData.landmarks.filter { landmark in
-            (!showFavoritesOnly || landmark.isFavorite ) && ( filter == .all || filter.rawValue == landmark.category.rawValue)
+            (!showFavoritesOnly || landmark.isFavorite)
+            && (filter == .all || filter.rawValue == landmark.category.rawValue)
         }
     }
     
@@ -41,9 +42,7 @@ struct LandmarkList: View {
         NavigationView {
             List(selection: $selectedLandmark) {
                 ForEach(filteredLandmarks) { landmark in
-                    NavigationLink {
-                        LandmarkDetail(landmark: landmark)
-                    } label: {
+                    NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
                         LandmarkRow(landmark: landmark)
                     }
                     .tag(landmark)
@@ -60,8 +59,9 @@ struct LandmarkList: View {
                             }
                         }
                         .pickerStyle(InlinePickerStyle())
+                        
                         Toggle(isOn: $showFavoritesOnly) {
-                            Label("Favorites Only", systemImage: "star.fill")
+                            Label("Favorites only", systemImage: "star.fill")
                         }
                     } label: {
                         Label("Filter", systemImage: "slider.horizontal.3")
@@ -69,8 +69,9 @@ struct LandmarkList: View {
                 }
             }
             
-            Text("Select a landmark")
+            Text("Select a Landmark")
         }
+        .focusedValue(\.selectedLandmark, $modelData.landmarks[index ?? 0])
     }
 }
 
@@ -78,11 +79,5 @@ struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkList()
             .environmentObject(ModelData())
-        
-        //        ForEach(["iPhone 13", "iPhone 8"], id: \.self) { device in
-        //            LandmarkList()
-        //                .previewDevice(PreviewDevice(rawValue: device))
-        //        }
-        
     }
 }

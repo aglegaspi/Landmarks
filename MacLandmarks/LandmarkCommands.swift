@@ -13,7 +13,7 @@ struct LandmarkCommands: Commands {
         
         var body: some View {
             Button("\(selectedLandmark?.isFavorite == true ? "Remove" : "Mark") as Favorite") {
-                selectedLandmark?isFavorite.toggle()
+                selectedLandmark?.isFavorite.toggle()
             }
             .keyboardShortcut("f", modifiers: [.shift,.option])
             .disabled(selectedLandmark == nil)
@@ -21,7 +21,7 @@ struct LandmarkCommands: Commands {
     }
     var body: some Commands {
         SidebarCommands()
-        CommandMenu("Landmarks") {
+        CommandMenu("Landmark") {
             MenuContent()
         }
     }
@@ -33,7 +33,7 @@ private struct SelectedLandmarkKey: FocusedValueKey {
 
 
 extension FocusedValues {
-    var selectedaLandmark: Binding<Landmark>? {
+    var selectedLandmark: Binding<Landmark>? {
         get { self[SelectedLandmarkKey.self] }
         set { self[SelectedLandmarkKey.self] = newValue }
     }
