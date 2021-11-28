@@ -63,6 +63,7 @@ struct LandmarkList: View {
                 }
             }
             
+            Text("Select a landmark")
         }
     }
 }
