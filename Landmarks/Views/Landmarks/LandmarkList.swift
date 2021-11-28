@@ -39,13 +39,14 @@ struct LandmarkList: View {
     
     var body: some View {
         NavigationView {
-            List {
+            List(selection: $selectedLandmark) {
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
                     } label: {
                         LandmarkRow(landmark: landmark)
                     }
+                    .tag(landmark)
                 }
             }
             .navigationTitle(title)
