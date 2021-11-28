@@ -20,7 +20,10 @@ struct LandmarkCommands: Commands {
         }
     }
     var body: some Commands {
-            SidebarCommands()
+        SidebarCommands()
+        CommandMenu("Landmarks") {
+            MenuContent()
+        }
     }
 }
 
