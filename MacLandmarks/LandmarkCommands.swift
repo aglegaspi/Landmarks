@@ -12,7 +12,10 @@ struct LandmarkCommands: Commands {
         @FocusedBinding(\.selectedLandmark) var selectedLandmark
         
         var body: some View {
-            
+            Button("\(selectedLandmark?.isFavorite == true ? "Remove" : "Mark") as Favorite") {
+                selectedLandmark?isFavorite.toggle()
+            }
+            .disabled(selectedLandmark == nil)
         }
     }
     var body: some Commands {
