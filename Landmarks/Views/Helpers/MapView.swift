@@ -10,7 +10,6 @@ import MapKit
 
 struct MapView: View {
     var coordinate: CLLocationCoordinate2D
-    @State private var region = MKCoordinateRegion()
     
     @AppStorage("Mapview.zoom")
     private var zoom: Zoom = .medium
@@ -32,14 +31,11 @@ struct MapView: View {
     }
     
     var body: some View {
-        Map(coordinateRegion: $region)
-            .onAppear {
-                setRegion(coordinate)
-            }
+        Map(coordinateRegion: .constant(region))
     }
     
-    private func setRegion(_ coordinate: CLLocationCoordinate2D) {
-        region = MKCoordinateRegion(center: coordinate, span: MKCoordinateSpan(latitudeDelta: delta, longitudeDelta: delta))
+    var region: MKCoordinateRegion {
+        MKCoordinateRegion(center: coordinate, span: MKCoordinateSpan(latitudeDelta: delta, longitudeDelta: delta))
     }
     
 }
