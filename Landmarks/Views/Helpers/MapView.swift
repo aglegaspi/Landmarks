@@ -12,6 +12,9 @@ struct MapView: View {
     var coordinate: CLLocationCoordinate2D
     @State private var region = MKCoordinateRegion()
     
+    @AppStorage("Mapview.zoom")
+    private var zoom: Zoom = .medium
+    
     enum Zoom: String, CaseIterable, Identifiable {
         case near = "Near"
         case medium = "Medium"
